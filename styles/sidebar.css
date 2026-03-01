@@ -1,0 +1,33 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 66px;
+    left: 0;
+    bottom: 0;
+    cursor: pointer;
+    z-index: 200;
+
+    /* border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(35, 35, 35); */
+}
+
+.button-1 {
+    width: 70px;
+    height: 70px;
+    font-size: 10px;
+    padding-top: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+}
+
+.sidebar-icon {
+    height: 28px;
+    width: 40px;
+    margin-bottom: 6px;
+}
